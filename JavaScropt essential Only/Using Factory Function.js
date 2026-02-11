@@ -55,3 +55,8 @@ for (let key in profile){
     console.log(key);
     console.log(profile[key]);
 }
+
+console.log("\n\n" );
+
+// Object keys
+console.log(Object.keys(profile));
