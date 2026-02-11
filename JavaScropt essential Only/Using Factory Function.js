@@ -44,7 +44,14 @@ console.log(profile.address.country); // usa
 // in operator
 // checking if profile has a salary:
 let isSalaryExist = "salary" in profile;
-console.log(isSalaryExist); // false. bcz there is no salary
+console.log(isSalaryExist); // false. bcz there is no salary in profile
 
 let isAdressExist = "address" in profile;
 console.log(isAdressExist); // true
+console.log("\n\n" );
+
+// for ... in loop
+for (let key in profile){
+    console.log(key);
+    console.log(profile[key]);
+}
